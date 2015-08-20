@@ -1,0 +1,27 @@
+{
+  "name": "node-webkit-template",
+  "version": "1.0.0",
+  "description": "Base ingredients for creating a Node-Webkit App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerze/node-webkit-template.git"
+  },
+  "keywords": [
+    "node-webkit",
+    "node",
+    "webkit",
+    "nw.js",
+    "nw",
+    "template"
+  ],
+  "author": "Gus Suarez <gus@mythril.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerze/node-webkit-template/issues"
+  },
+  "homepage": "https://github.com/aerze/node-webkit-template#readme"
+}
