@@ -1,0 +1,22 @@
+{
+    "name": "Node-Webkit App",
+    "main": "index.html",
+    "description": "An example of a Node-Webkit App",
+    "version": "1.0.0",
+
+    "window": {
+        "title": "Node-Webkit YEAAAAAAAAAAAH!",
+        "icon": "path/to.img",
+        "toolbar": true,
+        "frame": true,
+        "position": "center"
+
+    },
+    "NULL": {
+        "width": 600,
+        "height": 400,
+        "min_width": 600,
+        "min_height": 400
+
+    }
+}

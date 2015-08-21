@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/aerze/node-webkit-template/issues"
   },
-  "homepage": "https://github.com/aerze/node-webkit-template#readme"
+  "homepage": "https://github.com/aerze/node-webkit-template#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nw-builder": "^2.0.0"
+  }
 }
