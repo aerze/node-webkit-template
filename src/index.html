@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Node Webkit App</title>
+	<title>Node Webkit App</title>
+	
+	<!-- Import stylesheets locally -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Import stylesheets from the web, still possible -->
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
 </head>
 <body>
 
-<h1> I have conquered <strong>ALL</strong> the platforms!
+<h1> I have conquered <strong>ALL</strong> the platforms! </h1>
+
+<hr>
+
+<button onclick="nodeContext()">Node</button>
+<button onclick="context()">Browser</button>
+<strong> CONTEXT: <span id='context'></span> </strong>
+
+<hr>
+
+<button onclick="lsRoot()">List Root</button>
+<ul id="dirlist"></ul>
+
 
 <script type="text/javascript">
 	'use strict';
-	var CONTEXT = 'BROWSER';
-	var test = require('./node_context');
-	test.log('test');
 
+
+
+	// Set a global variable called CONTEXT to 'Browser'
+	var CONTEXT = 'Browser';
+	// Log CONTEXT to make sure it's the Browser
 	console.log(CONTEXT);
 
+
+
+	// Import test.js
+	var test = require('test');
+	// Log the CONTEXT inside test.js
+	test.log();
+
+
+
+	// Log the CONTEXT again to
+	// see what it ends up as
+	console.log(process);
+	
+
+
 </script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
