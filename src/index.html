@@ -39,7 +39,7 @@
 
 
 
-	// Import test.js
+	// Import test.js using node's require, this will have the node context
 	var test = require('test');
 	// Log the CONTEXT inside test.js
 	test.log();
@@ -53,6 +53,7 @@
 
 
 </script>
+<!-- Import using script tag, this will have the window context -->
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
